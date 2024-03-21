@@ -1,0 +1,24 @@
+{
+    "_class_name":"DepthNormalEstimationPipeline",
+    "_diffusers_version":"0.25.0",
+    "unet":[
+       "diffusers",
+       "UNet2DConditionModel"
+    ],
+    "vae":[
+       "diffusers",
+       "AutoencoderKL"
+    ],
+    "scheduler":[
+       "diffusers",
+       "DDIMScheduler"
+    ],
+    "feature_extractor":[
+       "transformers",
+       "CLIPImageProcessor"
+    ],
+    "image_encoder":[
+        "transformers",
+        "CLIPVisionModelWithProjection"
+    ]
+}
