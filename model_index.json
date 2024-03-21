@@ -20,5 +20,5 @@
     "image_encoder":[
         "transformers",
         "CLIPVisionModelWithProjection"
-     ],
- }
+    ]
+}
