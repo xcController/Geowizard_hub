@@ -26,7 +26,6 @@
   "conv_out_kernel": 3,
   "cross_attention_dim": 768,
   "cross_attention_norm": null,
-  "decay": 0.9999,
   "down_block_types": [
     "CrossAttnDownBlock2D",
     "CrossAttnDownBlock2D",
@@ -41,20 +40,16 @@
   "flip_sin_to_cos": true,
   "freq_shift": 0,
   "in_channels": 8,
-  "inv_gamma": 1.0,
   "layers_per_block": 2,
   "mid_block_only_cross_attention": null,
   "mid_block_scale_factor": 1,
   "mid_block_type": "UNetMidBlock2DCrossAttn",
-  "min_decay": 0.0,
   "norm_eps": 1e-05,
   "norm_num_groups": 32,
   "num_attention_heads": null,
   "num_class_embeds": null,
   "only_cross_attention": false,
-  "optimization_step": 117000,
   "out_channels": 4,
-  "power": 0.6666666666666666,
   "projection_class_embeddings_input_dim": 10,
   "resnet_out_scale_factor": 1.0,
   "resnet_skip_time_act": false,
@@ -74,7 +69,5 @@
     "CrossAttnUpBlock2D"
   ],
   "upcast_attention": false,
-  "update_after_step": 0,
-  "use_ema_warmup": false,
   "use_linear_projection": true
 }
