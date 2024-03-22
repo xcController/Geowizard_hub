@@ -2,7 +2,7 @@
     "_class_name":"DepthNormalEstimationPipeline",
     "_diffusers_version":"0.25.0",
     "unet":[
-       "diffusers",
+       "models.unet_2d_condition",
        "UNet2DConditionModel"
     ],
     "vae":[
