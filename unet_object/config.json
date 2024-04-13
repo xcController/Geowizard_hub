@@ -26,7 +26,6 @@
   "conv_out_kernel": 3,
   "cross_attention_dim": 1024,
   "cross_attention_norm": null,
-  "decay": 0.9999,
   "down_block_types": [
     "CrossAttnDownBlock2D",
     "CrossAttnDownBlock2D",
@@ -41,7 +40,6 @@
   "flip_sin_to_cos": true,
   "freq_shift": 0,
   "in_channels": 8,
-  "inv_gamma": 1.0,
   "layers_per_block": 2,
   "mid_block_only_cross_attention": null,
   "mid_block_scale_factor": 1,
